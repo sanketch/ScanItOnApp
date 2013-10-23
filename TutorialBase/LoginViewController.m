@@ -1,11 +1,3 @@
-//
-//  LoginViewController.m
-//  TutorialBase
-//
-//  Created by Antonio MG on 6/23/12.
-//  Copyright (c) 2012 AMG. All rights reserved.
-//
-
 #import <Parse/Parse.h>
 #import "LoginViewController.h"
 #import "RegisterViewController.h"
