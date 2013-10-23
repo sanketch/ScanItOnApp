@@ -1,10 +1,3 @@
-//
-//  RegisterViewController.m
-//  TutorialBase
-//
-//  Created by Antonio MG on 6/27/12.
-//  Copyright (c) 2012 AMG. All rights reserved.
-//
 #import <Parse/Parse.h>
 #import "RegisterViewController.h"
 
