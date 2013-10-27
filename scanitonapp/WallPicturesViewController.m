@@ -1,10 +1,3 @@
-//
-//  WallPicturesViewController.m
-//  TutorialBase
-//
-//  Created by Antonio MG on 6/23/12.
-//  Copyright (c) 2012 AMG. All rights reserved.
-//
 
 #import "WallPicturesViewController.h"
 #import "UploadImageViewController.h"
