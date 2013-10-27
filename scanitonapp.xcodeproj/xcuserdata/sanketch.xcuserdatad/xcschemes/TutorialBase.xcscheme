@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B8811D8D15B049AD00F6F58A"
                BuildableName = "TutorialBase.app"
-               BlueprintName = "TutorialBase"
-               ReferencedContainer = "container:TutorialBase.xcodeproj">
+               BlueprintName = "scanitonapp"
+               ReferencedContainer = "container:scanitonapp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8811D8D15B049AD00F6F58A"
             BuildableName = "TutorialBase.app"
-            BlueprintName = "TutorialBase"
-            ReferencedContainer = "container:TutorialBase.xcodeproj">
+            BlueprintName = "scanitonapp"
+            ReferencedContainer = "container:scanitonapp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8811D8D15B049AD00F6F58A"
             BuildableName = "TutorialBase.app"
-            BlueprintName = "TutorialBase"
-            ReferencedContainer = "container:TutorialBase.xcodeproj">
+            BlueprintName = "scanitonapp"
+            ReferencedContainer = "container:scanitonapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B8811D8D15B049AD00F6F58A"
             BuildableName = "TutorialBase.app"
-            BlueprintName = "TutorialBase"
-            ReferencedContainer = "container:TutorialBase.xcodeproj">
+            BlueprintName = "scanitonapp"
+            ReferencedContainer = "container:scanitonapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

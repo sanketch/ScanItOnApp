@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TutorialBase.xcodeproj">
+      location = "self:scanitonapp.xcodeproj">
    </FileRef>
 </Workspace>

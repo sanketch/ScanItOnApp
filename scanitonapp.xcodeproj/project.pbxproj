@@ -38,14 +38,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B8811D8E15B049AE00F6F58A /* TutorialBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8811D8E15B049AE00F6F58A /* scanitonapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scanitonapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8811D9215B049AE00F6F58A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8811D9415B049AE00F6F58A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8811D9615B049AE00F6F58A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B8811D9A15B049AE00F6F58A /* TutorialBase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TutorialBase-Info.plist"; sourceTree = "<group>"; };
+		B8811D9A15B049AE00F6F58A /* scanitonapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scanitonapp-Info.plist"; sourceTree = "<group>"; };
 		B8811D9C15B049AE00F6F58A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8811D9E15B049AE00F6F58A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B8811DA015B049AE00F6F58A /* TutorialBase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TutorialBase-Prefix.pch"; sourceTree = "<group>"; };
+		B8811DA015B049AE00F6F58A /* scanitonapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scanitonapp-Prefix.pch"; sourceTree = "<group>"; };
 		B8811DA115B049AE00F6F58A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8811DA215B049AE00F6F58A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B8811DA515B049AE00F6F58A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				D27E92B916692D0A00F838F6 /* Default-568h@2x.png */,
-				B8811D9815B049AE00F6F58A /* TutorialBase */,
+				B8811D9815B049AE00F6F58A /* scanitonapp */,
 				B8811D9115B049AE00F6F58A /* Frameworks */,
 				B8811D8F15B049AE00F6F58A /* Products */,
 			);
@@ -118,7 +118,7 @@
 		B8811D8F15B049AE00F6F58A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8811D8E15B049AE00F6F58A /* TutorialBase.app */,
+				B8811D8E15B049AE00F6F58A /* scanitonapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B8811D9815B049AE00F6F58A /* TutorialBase */ = {
+		B8811D9815B049AE00F6F58A /* scanitonapp */ = {
 			isa = PBXGroup;
 			children = (
 				FDC82B1018137FCF007A72C2 /* Logo2.png */,
@@ -155,16 +155,16 @@
 				B8811DA415B049AE00F6F58A /* MainStoryboard.storyboard */,
 				B8811D9915B049AE00F6F58A /* Supporting Files */,
 			);
-			path = TutorialBase;
+			path = scanitonapp;
 			sourceTree = "<group>";
 		};
 		B8811D9915B049AE00F6F58A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B8811D9A15B049AE00F6F58A /* TutorialBase-Info.plist */,
+				B8811D9A15B049AE00F6F58A /* scanitonapp-Info.plist */,
 				B8811D9B15B049AE00F6F58A /* InfoPlist.strings */,
 				B8811D9E15B049AE00F6F58A /* main.m */,
-				B8811DA015B049AE00F6F58A /* TutorialBase-Prefix.pch */,
+				B8811DA015B049AE00F6F58A /* scanitonapp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,9 +207,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8811D8D15B049AD00F6F58A /* TutorialBase */ = {
+		B8811D8D15B049AD00F6F58A /* scanitonapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8811DAF15B049AE00F6F58A /* Build configuration list for PBXNativeTarget "TutorialBase" */;
+			buildConfigurationList = B8811DAF15B049AE00F6F58A /* Build configuration list for PBXNativeTarget "scanitonapp" */;
 			buildPhases = (
 				B8811D8A15B049AD00F6F58A /* Sources */,
 				B8811D8B15B049AD00F6F58A /* Frameworks */,
@@ -219,9 +219,9 @@
 			);
 			dependencies = (
 			);
-			name = TutorialBase;
+			name = scanitonapp;
 			productName = TutorialBase;
-			productReference = B8811D8E15B049AE00F6F58A /* TutorialBase.app */;
+			productReference = B8811D8E15B049AE00F6F58A /* scanitonapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -232,7 +232,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = B8811D8815B049AD00F6F58A /* Build configuration list for PBXProject "TutorialBase" */;
+			buildConfigurationList = B8811D8815B049AD00F6F58A /* Build configuration list for PBXProject "scanitonapp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -244,7 +244,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8811D8D15B049AD00F6F58A /* TutorialBase */,
+				B8811D8D15B049AD00F6F58A /* scanitonapp */,
 			);
 		};
 /* End PBXProject section */
@@ -353,10 +353,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TutorialBase/TutorialBase-Prefix.pch";
-				INFOPLIST_FILE = "TutorialBase/TutorialBase-Info.plist";
+				GCC_PREFIX_HEADER = "scanitonapp/scanitonapp-Prefix.pch";
+				INFOPLIST_FILE = "scanitonapp/scanitonapp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = scanitonapp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -369,10 +369,10 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TutorialBase/TutorialBase-Prefix.pch";
-				INFOPLIST_FILE = "TutorialBase/TutorialBase-Info.plist";
+				GCC_PREFIX_HEADER = "scanitonapp/scanitonapp-Prefix.pch";
+				INFOPLIST_FILE = "scanitonapp/scanitonapp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = scanitonapp;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -380,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8811D8815B049AD00F6F58A /* Build configuration list for PBXProject "TutorialBase" */ = {
+		B8811D8815B049AD00F6F58A /* Build configuration list for PBXProject "scanitonapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8811DAD15B049AE00F6F58A /* Debug */,
@@ -389,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8811DAF15B049AE00F6F58A /* Build configuration list for PBXNativeTarget "TutorialBase" */ = {
+		B8811DAF15B049AE00F6F58A /* Build configuration list for PBXNativeTarget "scanitonapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8811DB015B049AE00F6F58A /* Debug */,
