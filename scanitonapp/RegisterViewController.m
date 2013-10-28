@@ -28,7 +28,10 @@
     PFUser *user = [PFUser user];
     user.username = self.userRegisterTextField.text;
     user.password = self.passwordRegisterTextField.text;
+    user.email=self.userRegisterTextField.text;
     //user.full_name=self.fullNameRegisterTextField.text;
+    
+    [user setObject:self.fullNameRegisterTextField.text forKey:@"full_name"];
     
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
