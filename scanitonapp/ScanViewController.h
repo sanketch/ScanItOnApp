@@ -1,6 +1,6 @@
 //
 //  ScanViewController.h
-//  TutorialBase
+//  scanitonapp
 //
 //  Created by Sanket Chauhan on 10/19/13.
 //
@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 #import <Parse/Parse.h>
 #import "ZBarSDK.h"
-@interface ScanViewController : UIViewController
+@interface ScanViewController : UIViewController <ZBarReaderDelegate>
 
 - (IBAction)logoutPressed:(id)sender;
 
