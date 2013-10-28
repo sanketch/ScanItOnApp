@@ -154,12 +154,7 @@
 		B8811D8315B049AD00F6F58A = {
 			isa = PBXGroup;
 			children = (
-				FD252996181DF13B00051138 /* CoreAudio.framework */,
 				FD252973181DF0C300051138 /* ZBarSDK */,
-				FD252971181DEEB800051138 /* CoreVideo.framework */,
-				FD25296F181DEEA800051138 /* AVFoundation.framework */,
-				FD25296D181DEEA000051138 /* libiconv.dylib */,
-				FD25296B181DEE8600051138 /* CoreMedia.framework */,
 				D27E92B916692D0A00F838F6 /* Default-568h@2x.png */,
 				B8811D9815B049AE00F6F58A /* scanitonapp */,
 				B8811D9115B049AE00F6F58A /* Frameworks */,
@@ -178,6 +173,11 @@
 		B8811D9115B049AE00F6F58A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD252996181DF13B00051138 /* CoreAudio.framework */,
+				FD252971181DEEB800051138 /* CoreVideo.framework */,
+				FD25296F181DEEA800051138 /* AVFoundation.framework */,
+				FD25296D181DEEA000051138 /* libiconv.dylib */,
+				FD25296B181DEE8600051138 /* CoreMedia.framework */,
 				D27E92BE16692E6C00F838F6 /* Accounts.framework */,
 				D27E92D816692F2500F838F6 /* AdSupport.framework */,
 				D27E92BF16692E6C00F838F6 /* AudioToolbox.framework */,

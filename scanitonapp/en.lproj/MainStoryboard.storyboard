@@ -242,6 +242,34 @@
                     <view key="view" contentMode="scaleToFill" id="1QO-tG-Uk3">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="TUm-Bk-mom">
+                                <rect key="frame" x="14" y="10" width="292" height="292"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="No QR code scanned!" id="XEF-n5-HBV">
+                                <rect key="frame" x="14" y="310" width="292" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="B9n-IG-QAn">
+                                <rect key="frame" x="130" y="358" width="60" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startScanning:" destination="4je-N5-V7v" eventType="touchUpInside" id="AQz-jp-jym"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Scan!" id="73I-BM-2Av">
@@ -251,6 +279,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="resultImageView" destination="TUm-Bk-mom" id="C4O-XU-Mgf"/>
+                        <outlet property="resultTextView" destination="XEF-n5-HBV" id="qDO-b6-Uhf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NeP-4a-vfk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -264,6 +296,7 @@
         <class className="LoginViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
             <relationships>
+                <relationship kind="action" name="logInPressed:"/>
                 <relationship kind="outlet" name="passwordTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="userTextField" candidateClass="UITextField"/>
             </relationships>
@@ -271,6 +304,7 @@
         <class className="RegisterViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/RegisterViewController.h"/>
             <relationships>
+                <relationship kind="action" name="signUpUserPressed:"/>
                 <relationship kind="outlet" name="fullNameRegisterTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="passwordRegisterTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="userRegisterTextField" candidateClass="UITextField"/>
@@ -280,6 +314,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ScanViewController.h"/>
             <relationships>
                 <relationship kind="action" name="logoutPressed:"/>
+                <relationship kind="outlet" name="resultImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="resultTextView" candidateClass="UITextView"/>
             </relationships>
         </class>
         <class className="UploadImageViewController" superclassName="UIViewController">

@@ -17,6 +17,8 @@
 
 - (void)viewDidUnload {
     //[self setLogoutPressed:nil];
+    [self setResultImageView:nil];
+    [self setResultTextView:nil];
     [super viewDidUnload];
 }
 
@@ -34,5 +36,7 @@
         NSLog(@"Logged out");
         [self.navigationController popViewControllerAnimated:YES];
     
+}
+- (IBAction)startScanning:(id)sender {
 }
 @end
