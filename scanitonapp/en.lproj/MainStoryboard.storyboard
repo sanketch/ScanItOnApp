@@ -179,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="1921" y="-17"/>
         </scene>
-        <!--Register View Controller - Sign Up-->
+        <!--Sign Up View Controller - Sign Up-->
         <scene sceneID="suK-HU-acE">
             <objects>
-                <viewController id="FbC-6i-DI5" customClass="RegisterViewController" sceneMemberID="viewController">
+                <viewController id="FbC-6i-DI5" customClass="SignUpViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="URR-Ie-PBq">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -299,15 +299,6 @@
                 <relationship kind="action" name="logInPressed:"/>
                 <relationship kind="outlet" name="passwordTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="userTextField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="RegisterViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RegisterViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="signUpUserPressed:"/>
-                <relationship kind="outlet" name="fullNameRegisterTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="passwordRegisterTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="userRegisterTextField" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="ScanViewController" superclassName="UIViewController">

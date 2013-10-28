@@ -1,6 +1,6 @@
 #import <Parse/Parse.h>
 #import "LoginViewController.h"
-#import "RegisterViewController.h"
+#import "SignUpViewController.h"
 
 @interface LoginViewController ()
 @property (nonatomic, strong) IBOutlet UITextField *userTextField;

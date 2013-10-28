@@ -1,14 +1,14 @@
 #import <Parse/Parse.h>
-#import "RegisterViewController.h"
+#import "SignUpViewController.h"
 
 
-@interface RegisterViewController ()
+@interface SignUpViewController ()
 @property (nonatomic, strong) IBOutlet UITextField *userRegisterTextField;
 @property (nonatomic, strong) IBOutlet UITextField *passwordRegisterTextField;
 @property (strong, nonatomic) IBOutlet UITextField *fullNameRegisterTextField;
 @end
 
-@implementation RegisterViewController
+@implementation SignUpViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
