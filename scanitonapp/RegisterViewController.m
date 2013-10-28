@@ -32,7 +32,7 @@
     //user.full_name=self.fullNameRegisterTextField.text;
     
     [user setObject:self.fullNameRegisterTextField.text forKey:@"full_name"];
-    
+    //to obtain the data back I can use [[PFUser currentUser] setObject:@"text" forKey:@"full_name"]; NSString* myName = [[PFUser currentUser] objectForKey:@"full_name"]; NSLog(@"%@", myName);
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if (!error) {
             [self performSegueWithIdentifier:@"SignupSuccesful" sender:self];
@@ -40,6 +40,9 @@
             [[[UIAlertView alloc] initWithTitle:@"Error" message:[error userInfo][@"error"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
         }
     }];
+    
+    
+
 }
 
 - (void)viewDidUnload {

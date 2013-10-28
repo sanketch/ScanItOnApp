@@ -1,6 +1,6 @@
 //
 //  ScanViewController.m
-//  TutorialBase
+//  
 //
 //  Created by Sanket Chauhan on 10/19/13.
 //
@@ -18,6 +18,14 @@
 - (void)viewDidUnload {
     //[self setLogoutPressed:nil];
     [super viewDidUnload];
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    //to get the username
+    //NSString* myName = [[PFUser currentUser] objectForKey:@"full_name"]; NSLog(@"%@", myName);
 }
 
 - (IBAction)logoutPressed:(id)sender {
