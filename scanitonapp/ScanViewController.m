@@ -29,6 +29,11 @@
 {
     [super viewWillAppear:animated];
     
+    
+
+        
+    
+        
     //to get the username
     //NSString* myName = [[PFUser currentUser] objectForKey:@"full_name"]; NSLog(@"%@", myName);
 }
@@ -66,8 +71,27 @@
     
     // showing the result on textview
     resultTextView.text = symbol.data;
-    
     resultImageView.image = [info objectForKey: UIImagePickerControllerOriginalImage];
+    NSString* qrURL = resultTextView.text;
+    if ([qrURL rangeOfString:@"www.scaniton.com/?id="].location != NSNotFound)
+    {
+        NSArray *splitArray = [qrURL componentsSeparatedByString:@"?id="];
+        NSString *qrId = splitArray[1];
+        PFObject *qrLogger = [PFObject objectWithClassName:@"qr_logger"];
+        qrLogger[@"qrid"] = qrId;
+        qrLogger[@"createdBy"] = [PFUser currentUser];
+        [qrLogger saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+            if (!error) {
+                UIAlertView *notification = [[UIAlertView alloc] initWithTitle:@"Success!" message:@"Sender has been notified!" delegate:nil cancelButtonTitle:@"Awesome!" otherButtonTitles:nil];
+                [notification show];
+            }}];
+    }
+    else{
+        UIAlertView *notification = [[UIAlertView alloc] initWithTitle:@"Invalid QR Code" message:@"Not a valid ScanItOn QR Code :(" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [notification show];
+    }
+
+
     
     // dismiss the controller
     [reader dismissViewControllerAnimated:YES completion:nil];

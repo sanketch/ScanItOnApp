@@ -292,40 +292,6 @@
     <resources>
         <image name="Logo2.png" width="3144" height="997"/>
     </resources>
-    <classes>
-        <class className="LoginViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="logInPressed:"/>
-                <relationship kind="outlet" name="passwordTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="userTextField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="ScanViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScanViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="logoutPressed:"/>
-                <relationship kind="outlet" name="resultImageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="resultTextView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="UploadImageViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UploadImageViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="selectPicturePressed:"/>
-                <relationship kind="action" name="sendPressed:"/>
-                <relationship kind="outlet" name="commentTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="imgToUpload" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="WallPicturesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WallPicturesViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="logoutPressed:"/>
-                <relationship kind="outlet" name="wallScroll" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
