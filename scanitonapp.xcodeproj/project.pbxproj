@@ -16,8 +16,6 @@
 		B8811DA615B049AE00F6F58A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8811DA415B049AE00F6F58A /* MainStoryboard.storyboard */; };
 		B8811DB615B049ED00F6F58A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8811DB315B049ED00F6F58A /* LoginViewController.m */; };
 		B8811DB715B049ED00F6F58A /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8811DB515B049ED00F6F58A /* SignUpViewController.m */; };
-		B8811DFC15B0501100F6F58A /* WallPicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8811DF915B0501100F6F58A /* WallPicturesViewController.m */; };
-		B8811DFD15B0501100F6F58A /* UploadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8811DFB15B0501100F6F58A /* UploadImageViewController.m */; };
 		D27E92BA16692D0A00F838F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D27E92B916692D0A00F838F6 /* Default-568h@2x.png */; };
 		D27E92BD16692DFE00F838F6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27E92BC16692DFE00F838F6 /* Parse.framework */; };
 		D27E92C216692E6C00F838F6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27E92BE16692E6C00F838F6 /* Accounts.framework */; };
@@ -63,10 +61,6 @@
 		B8811DB315B049ED00F6F58A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		B8811DB415B049ED00F6F58A /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		B8811DB515B049ED00F6F58A /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
-		B8811DF815B0501100F6F58A /* WallPicturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallPicturesViewController.h; sourceTree = "<group>"; };
-		B8811DF915B0501100F6F58A /* WallPicturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallPicturesViewController.m; sourceTree = "<group>"; };
-		B8811DFA15B0501100F6F58A /* UploadImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImageViewController.h; sourceTree = "<group>"; };
-		B8811DFB15B0501100F6F58A /* UploadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImageViewController.m; sourceTree = "<group>"; };
 		D27E92B916692D0A00F838F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D27E92BC16692DFE00F838F6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		D27E92BE16692E6C00F838F6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -246,10 +240,6 @@
 		B8811E0215B06F6600F6F58A /* Scan */ = {
 			isa = PBXGroup;
 			children = (
-				B8811DF815B0501100F6F58A /* WallPicturesViewController.h */,
-				B8811DF915B0501100F6F58A /* WallPicturesViewController.m */,
-				B8811DFA15B0501100F6F58A /* UploadImageViewController.h */,
-				B8811DFB15B0501100F6F58A /* UploadImageViewController.m */,
 				FDEDBC021813956000C71875 /* ScanViewController.h */,
 				FDEDBC031813956000C71875 /* ScanViewController.m */,
 			);
@@ -392,8 +382,6 @@
 				B8811DA315B049AE00F6F58A /* AppDelegate.m in Sources */,
 				B8811DB615B049ED00F6F58A /* LoginViewController.m in Sources */,
 				B8811DB715B049ED00F6F58A /* SignUpViewController.m in Sources */,
-				B8811DFC15B0501100F6F58A /* WallPicturesViewController.m in Sources */,
-				B8811DFD15B0501100F6F58A /* UploadImageViewController.m in Sources */,
 				FDEDBC041813956000C71875 /* ScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
