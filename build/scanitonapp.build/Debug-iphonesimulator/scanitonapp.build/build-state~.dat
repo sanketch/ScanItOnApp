@@ -1,0 +1,713 @@
+Tscanitonapp
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch.pch scanitonapp/scanitonapp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp normal i386
+cCpResource Default-568h@2x.png build/Debug-iphonesimulator/scanitonapp.app/Default-568h@2x.png
+cCopyStringsFile /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/en.lproj/InfoPlist.strings scanitonapp/en.lproj/InfoPlist.strings
+cCpResource scanitonapp/Logo2.png build/Debug-iphonesimulator/scanitonapp.app/Logo2.png
+cCompileStoryboard /Users/itp/Desktop/ScanItOnApp/scanitonapp/en.lproj/MainStoryboard.storyboard
+cCpResource ZBarSDK/Resources/zbar-back.png build/Debug-iphonesimulator/scanitonapp.app/zbar-back.png
+cCpResource ZBarSDK/Resources/zbar-helpicons.png build/Debug-iphonesimulator/scanitonapp.app/zbar-helpicons.png
+cCpResource ZBarSDK/Resources/zbar-help.html build/Debug-iphonesimulator/scanitonapp.app/zbar-help.html
+cCpResource ZBarSDK/Resources/zbar-samples.png build/Debug-iphonesimulator/scanitonapp.app/zbar-samples.png
+cCompileAssetCatalog /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app /Users/itp/Desktop/ScanItOnApp/scanitonapp/Images.xcassets
+cProcessInfoPlistFile /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Info.plist /Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Info.plist
+cGenerateDSYMFile /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app.dSYM /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp
+cTouch /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000527B34570000000000000176
+t1383806039
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005258E59B00000000000003B5
+t1381557659
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005258E5A700000000000001A0
+t1381557671
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005258E5A9000000000047C980
+t1381557673
+s4704640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accounts.framework/Accounts
+c000000005258E5A90000000000090960
+t1381557673
+s592224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AdSupport.framework/AdSupport
+c000000005258E5A90000000000008CC0
+t1381557673
+s36032
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005258E5AB00000000009040F0
+t1381557675
+s9453808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005258E5AB00000000005838D0
+t1381557675
+s5781712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000005258E5AB00000000000FA140
+t1381557675
+s1024320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005258E5AB0000000000445870
+t1381557675
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005258E5AB00000000000EC820
+t1381557675
+s968736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005258E5AC0000000000133B60
+t1381557676
+s1260384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000005258E5AC000000000004B000
+t1381557676
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005258E5AD000000000088C680
+t1381557677
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005258E5B000000000001BA530
+t1381557680
+s1811760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005258E5B100000000004848F0
+t1381557681
+s4737264
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005258E5B100000000001290B0
+t1381557681
+s1216688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Social.framework/Social
+c000000005258E5B20000000000206A70
+t1381557682
+s2124400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c000000005258E5B2000000000006A870
+t1381557682
+s436336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005258E5B200000000001081B0
+t1381557682
+s1081776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005258E5B40000000001DB9910
+t1381557684
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libiconv.dylib
+c000000005258E5D80000000000205FF0
+t1381557720
+s2121712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libsqlite3.dylib
+c000000005258E5D800000000001D3590
+t1381557720
+s1914256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libz.1.1.3.dylib
+c000000005258E5D8000000000002B700
+t1381557720
+s177920
+
+N/Users/itp/Desktop/ScanItOnApp/Default-568h@2x.png
+c000000005281474800000000000048A2
+t1384204104
+s18594
+
+N/Users/itp/Desktop/ScanItOnApp/Parse.framework/Parse
+c00000000528147480000000001C52D84
+t1384204104
+s29699460
+
+N/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Resources/zbar-back.png
+c0000000052814748000000000000013F
+t1384204104
+s319
+
+N/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Resources/zbar-help.html
+c00000000528147480000000000000C07
+t1384204104
+s3079
+
+N/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Resources/zbar-helpicons.png
+c000000005281474800000000000047AE
+t1384204104
+s18350
+
+N/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Resources/zbar-samples.png
+c0000000052814748000000000000049D
+t1384204104
+s1181
+
+N/Users/itp/Desktop/ScanItOnApp/ZBarSDK/libzbar.a
+c000000005281474800000000002E5F0C
+t1384204104
+s3038988
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app
+t1384206088
+s476
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app.dSYM
+t2
+s0
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Default-568h@2x.png
+t1384206080
+s18594
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Info.plist
+t1384206088
+s992
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Logo2.png
+t1384206080
+s68329
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/PkgInfo
+t1384206088
+s8
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/en.lproj/InfoPlist.strings
+t1384206080
+s42
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/en.lproj/MainStoryboard.storyboardc
+t1384206086
+s306
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp
+t1384206080
+s2829384
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/zbar-back.png
+t1384206080
+s319
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/zbar-help.html
+t1384206080
+s3079
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/zbar-helpicons.png
+t1384206080
+s18350
+
+N/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/zbar-samples.png
+t1384206080
+s1181
+
+N/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.o
+t1384206079
+s65532
+
+N/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.o
+t1384206079
+s54460
+
+N/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.o
+t1384206079
+s79388
+
+N/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.o
+t1384206079
+s57760
+
+N/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.o
+t1384206079
+s3252
+
+N/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/scanitonapp.LinkFileList
+c0000000052814EFD0000000000000296
+t1384206077
+s662
+
+N/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/assetcatalog_dependencies.txt
+t1384206088
+s334
+
+N/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/assetcatalog_generated_info.plist
+t1384206088
+s525
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.m
+c00000000528147480000000000000C14
+t1384204104
+s3092
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/Images.xcassets
+c000000005281490E0000000000000088
+t1384204558
+s136
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.m
+c000000005281474800000000000003F5
+t1384204104
+s1013
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/Logo2.png
+c00000000528147480000000000010AE9
+t1384204104
+s68329
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.m
+c00000000528147480000000000000BA7
+t1384204104
+s2983
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.m
+c0000000052814748000000000000067F
+t1384204104
+s1663
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/en.lproj/InfoPlist.strings
+c0000000052814748000000000000002D
+t1384204104
+s45
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/en.lproj/MainStoryboard.storyboard
+c0000000052814EFD0000000000003C3A
+t1384206077
+s15418
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/main.m
+c000000005281474800000000000000DF
+t1384204104
+s223
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Info.plist
+c000000005281490D00000000000004A6
+t1384204557
+s1190
+
+N/Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Prefix.pch
+c00000000528147480000000000000163
+t1384204104
+s355
+
+N/var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch.pch
+t1384206079
+s6406964
+
+CBuild AST from /Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.m
+r0
+
+CBuild AST from /Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.m
+r0
+
+CBuild AST from /Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.m
+r0
+
+CBuild AST from /Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.m
+r0
+
+CBuild AST from /Users/itp/Desktop/ScanItOnApp/scanitonapp/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbed8a37d8631b841^e3ffb27d8631b841^---0#1#1#--18"Check dependencies36"39B0C3B7-67CC-4205-BDAE-96E9040F8CF9-
+
+CCompileAssetCatalog /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app /Users/itp/Desktop/ScanItOnApp/scanitonapp/Images.xcassets
+s405898880.448506
+e405898888.615658
+r1
+xCompileAssetCatalog
+x/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app
+x/Users/itp/Desktop/ScanItOnApp/scanitonapp/Images.xcassets
+o2013-11-11 13:41:28.454 IBCocoaTouchImageCatalogTool[3997:303] CFPreferences: user home directory at file:///Users/itp/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/LaunchImage-700-568h@2x.png
+o/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Assets.car
+o/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CompileAssetCatalog build/Debug-iphonesimulator/scanitonapp.app scanitonapp/Images.xcassets91"CompileAssetCatalog build/Debug-iphonesimulator/scanitonapp.app scanitonapp/Images.xcassetsefe172808631b841^f99e9d888631b841^-583"2013-11-11 13:41:28.454 IBCocoaTouchImageCatalogTool[3997:303] CFPreferences: user home directory at file:///Users/itp/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/LaunchImage-700-568h@2x.png/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Assets.car/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@75"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/Images.xcassets/0000000000000000^1084"CompileAssetCatalog build/Debug-iphonesimulator/scanitonapp.app scanitonapp/Images.xcassets    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app /Users/itp/Desktop/ScanItOnApp/scanitonapp/Images.xcassets36"5CA3AE17-0E84-4C36-929E-F0719133A549-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405898879.585338
+e405898879.814158
+r1
+xCompileC
+xbuild/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.o
+x/Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.m
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.m200"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.o scanitonapp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler54fe957f8631b841^2b6ed07f8631b841^---0#0#1#-19%DVTDocumentLocation2@72"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.m0000000000000000^3391"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.o scanitonapp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/itp/Desktop/ScanItOnApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-generated-files.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-own-target-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-all-target-headers.hmap -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-project-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources/i386 -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources -F/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator -F/Users/itp/Desktop/ScanItOnApp -include /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch -MMD -MT dependencies -MF /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.dia -c /Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.m -o /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.o36"600D72A5-D28E-4EA4-AFF2-527C0F1F1241-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405898879.585271
+e405898879.811241
+r1
+xCompileC
+xbuild/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.o
+x/Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.m
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.h
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.m216"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.o scanitonapp/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileracfd957f8631b841^04aecf7f8631b841^---0#0#1#-19%DVTDocumentLocation2@80"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.m0000000000000000^3439"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.o scanitonapp/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/itp/Desktop/ScanItOnApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-generated-files.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-own-target-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-all-target-headers.hmap -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-project-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources/i386 -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources -F/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator -F/Users/itp/Desktop/ScanItOnApp -include /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch -MMD -MT dependencies -MF /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.d --serialize-diagnostics /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.dia -c /Users/itp/Desktop/ScanItOnApp/scanitonapp/LoginViewController.m -o /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.o36"46920C31-1E29-4140-A4A0-90A587D3D615-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405898879.585357
+e405898879.849483
+r1
+xCompileC
+xbuild/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.o
+x/Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.m
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarSDK.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/zbar.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarSymbol.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarImage.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarImageScanner.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarReaderView.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarReaderViewController.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarReaderController.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarCaptureReader.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarHelpController.h
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/Headers/ZBarSDK/ZBarCameraSimulator.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.m214"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.o scanitonapp/ScanViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc902967f8631b841^b877d97f8631b841^---0#0#1#-19%DVTDocumentLocation2@79"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.m0000000000000000^3433"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.o scanitonapp/ScanViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/itp/Desktop/ScanItOnApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-generated-files.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-own-target-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-all-target-headers.hmap -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-project-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources/i386 -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources -F/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator -F/Users/itp/Desktop/ScanItOnApp -include /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch -MMD -MT dependencies -MF /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.d --serialize-diagnostics /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.dia -c /Users/itp/Desktop/ScanItOnApp/scanitonapp/ScanViewController.m -o /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.o36"6447E382-B321-4590-A9C8-4FD8D36DF38B-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405898879.585301
+e405898879.814211
+r1
+xCompileC
+xbuild/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.o
+x/Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.m
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.m218"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.o scanitonapp/SignUpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere200967f8631b841^b878d07f8631b841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.m0000000000000000^3445"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.o scanitonapp/SignUpViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/itp/Desktop/ScanItOnApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-generated-files.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-own-target-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-all-target-headers.hmap -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-project-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources/i386 -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources -F/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator -F/Users/itp/Desktop/ScanItOnApp -include /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch -MMD -MT dependencies -MF /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.d --serialize-diagnostics /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.dia -c /Users/itp/Desktop/ScanItOnApp/scanitonapp/SignUpViewController.m -o /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.o36"7AD06F96-2514-44B7-A2BB-31A9AF72C682-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.o /Users/itp/Desktop/ScanItOnApp/scanitonapp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405898879.585330
+e405898879.803021
+r1
+xCompileC
+xbuild/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.o
+x/Users/itp/Desktop/ScanItOnApp/scanitonapp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/main.m
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/itp/Desktop/ScanItOnApp/scanitonapp/main.m186"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.o scanitonapp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera702967f8631b841^8193cd7f8631b841^---0#0#1#-19%DVTDocumentLocation2@65"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/main.m0000000000000000^3349"CompileC build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.o scanitonapp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/itp/Desktop/ScanItOnApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-generated-files.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-own-target-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-all-target-headers.hmap -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-project-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources/i386 -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources -F/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator -F/Users/itp/Desktop/ScanItOnApp -include /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch -MMD -MT dependencies -MF /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.dia -c /Users/itp/Desktop/ScanItOnApp/scanitonapp/main.m -o /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.o36"5E5FE973-7913-4BEE-A107-CCC0048352A4-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCompileStoryboard /Users/itp/Desktop/ScanItOnApp/scanitonapp/en.lproj/MainStoryboard.storyboard
+s405898880.428934
+e405898887.043930
+r1
+xCompileStoryboard
+x/Users/itp/Desktop/ScanItOnApp/scanitonapp/en.lproj/MainStoryboard.storyboard
+o2013-11-11 13:41:25.921 Interface Builder Cocoa Touch Tool[3989:303] CFPreferences: user home directory at file:///Users/itp/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard scanitonapp/en.lproj/MainStoryboard.storyboard64"CompileStoryboard scanitonapp/en.lproj/MainStoryboard.storyboard14ea6d808631b841^0c400b878631b841^-227"2013-11-11 13:41:25.921 Interface Builder Cocoa Touch Tool[3989:303] CFPreferences: user home directory at file:///Users/itp/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/en.lproj/MainStoryboard.storyboard0000000000000000^842"CompileStoryboard scanitonapp/en.lproj/MainStoryboard.storyboard    cd /Users/itp/Desktop/ScanItOnApp    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/en.lproj/MainStoryboard.storyboardc /Users/itp/Desktop/ScanItOnApp/scanitonapp/en.lproj/MainStoryboard.storyboard36"B8E2BF4D-25A6-4401-977F-684476784DDB-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCopyStringsFile /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/en.lproj/InfoPlist.strings scanitonapp/en.lproj/InfoPlist.strings
+s405898880.428880
+e405898880.434353
+r1
+xCopyStringsFile
+x/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/en.lproj/InfoPlist.strings
+xscanitonapp/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy scanitonapp/en.lproj/InfoPlist.strings125"CopyStringsFile build/Debug-iphonesimulator/scanitonapp.app/en.lproj/InfoPlist.strings scanitonapp/en.lproj/InfoPlist.stringsc0e96d808631b841^f0326f808631b841^---0#0#1#-19%DVTDocumentLocation2@85"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/en.lproj/InfoPlist.strings0000000000000000^575"CopyStringsFile build/Debug-iphonesimulator/scanitonapp.app/en.lproj/InfoPlist.strings scanitonapp/en.lproj/InfoPlist.strings    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/en.lproj -- scanitonapp/en.lproj/InfoPlist.strings36"0E585FD2-DB51-4C46-94E6-F551E1897E33-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCpResource Default-568h@2x.png build/Debug-iphonesimulator/scanitonapp.app/Default-568h@2x.png
+s405898880.428844
+e405898880.431325
+r1
+xCpResource
+xDefault-568h@2x.png
+xbuild/Debug-iphonesimulator/scanitonapp.app/Default-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/scanitonapp.app/Default-568h@2x.png94"CpResource Default-568h@2x.png build/Debug-iphonesimulator/scanitonapp.app/Default-568h@2x.png3ee86d808631b841^c66b6e808631b841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Default-568h@2x.png0038f450dfffdf42^566"CpResource Default-568h@2x.png build/Debug-iphonesimulator/scanitonapp.app/Default-568h@2x.png    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/itp/Desktop/ScanItOnApp/Default-568h@2x.png /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app36"12246FED-EFFE-4C3F-A60F-4FA0A3B1D88F-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCpResource ZBarSDK/Resources/zbar-back.png build/Debug-iphonesimulator/scanitonapp.app/zbar-back.png
+s405898880.432560
+e405898880.438177
+r1
+xCpResource
+xZBarSDK/Resources/zbar-back.png
+xbuild/Debug-iphonesimulator/scanitonapp.app/zbar-back.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/scanitonapp.app/zbar-back.png100"CpResource ZBarSDK/Resources/zbar-back.png build/Debug-iphonesimulator/scanitonapp.app/zbar-back.pngcdca6e808631b841^282d70808631b841^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/zbar-back.png0038f450dfffdf42^584"CpResource ZBarSDK/Resources/zbar-back.png build/Debug-iphonesimulator/scanitonapp.app/zbar-back.png    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/itp/Desktop/ScanItOnApp/ZBarSDK/Resources/zbar-back.png /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app36"DB8FBF1C-D9EE-4E2A-A819-1B72D2682DCC-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCpResource ZBarSDK/Resources/zbar-help.html build/Debug-iphonesimulator/scanitonapp.app/zbar-help.html
+s405898880.435635
+e405898880.449951
+r1
+xCpResource
+xZBarSDK/Resources/zbar-help.html
+xbuild/Debug-iphonesimulator/scanitonapp.app/zbar-help.html
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/scanitonapp.app/zbar-help.html102"CpResource ZBarSDK/Resources/zbar-help.html build/Debug-iphonesimulator/scanitonapp.app/zbar-help.html74986f808631b841^8b3273808631b841^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/zbar-help.html0038f450dfffdf42^587"CpResource ZBarSDK/Resources/zbar-help.html build/Debug-iphonesimulator/scanitonapp.app/zbar-help.html    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/itp/Desktop/ScanItOnApp/ZBarSDK/Resources/zbar-help.html /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app36"E9F7C8F7-2AE4-4E6C-9412-DAFF29676D53-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCpResource ZBarSDK/Resources/zbar-helpicons.png build/Debug-iphonesimulator/scanitonapp.app/zbar-helpicons.png
+s405898880.435632
+e405898880.447212
+r1
+xCpResource
+xZBarSDK/Resources/zbar-helpicons.png
+xbuild/Debug-iphonesimulator/scanitonapp.app/zbar-helpicons.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/scanitonapp.app/zbar-helpicons.png110"CpResource ZBarSDK/Resources/zbar-helpicons.png build/Debug-iphonesimulator/scanitonapp.app/zbar-helpicons.png4a966f808631b841^677d72808631b841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/zbar-helpicons.png0038f450dfffdf42^599"CpResource ZBarSDK/Resources/zbar-helpicons.png build/Debug-iphonesimulator/scanitonapp.app/zbar-helpicons.png    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/itp/Desktop/ScanItOnApp/ZBarSDK/Resources/zbar-helpicons.png /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app36"11578BF0-1768-419B-B240-E031851D68FC-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCpResource ZBarSDK/Resources/zbar-samples.png build/Debug-iphonesimulator/scanitonapp.app/zbar-samples.png
+s405898880.439570
+e405898880.447903
+r1
+xCpResource
+xZBarSDK/Resources/zbar-samples.png
+xbuild/Debug-iphonesimulator/scanitonapp.app/zbar-samples.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/scanitonapp.app/zbar-samples.png106"CpResource ZBarSDK/Resources/zbar-samples.png build/Debug-iphonesimulator/scanitonapp.app/zbar-samples.pnga39470808631b841^08aa72808631b841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/zbar-samples.png0038f450dfffdf42^593"CpResource ZBarSDK/Resources/zbar-samples.png build/Debug-iphonesimulator/scanitonapp.app/zbar-samples.png    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/itp/Desktop/ScanItOnApp/ZBarSDK/Resources/zbar-samples.png /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app36"0CD082D9-6B8C-416F-A7BA-CA33C68E4372-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CCpResource scanitonapp/Logo2.png build/Debug-iphonesimulator/scanitonapp.app/Logo2.png
+s405898880.428899
+e405898880.435280
+r1
+xCpResource
+xscanitonapp/Logo2.png
+xbuild/Debug-iphonesimulator/scanitonapp.app/Logo2.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/scanitonapp.app/Logo2.png86"CpResource scanitonapp/Logo2.png build/Debug-iphonesimulator/scanitonapp.app/Logo2.png29e96d808631b841^a8716f808631b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Logo2.png0038f450dfffdf42^560"CpResource scanitonapp/Logo2.png build/Debug-iphonesimulator/scanitonapp.app/Logo2.png    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/itp/Desktop/ScanItOnApp/scanitonapp/Logo2.png /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app36"5BBE20DA-B11C-4F11-953C-8F1D05B036AD-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CGenerateDSYMFile /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app.dSYM /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp
+s405898888.644683
+e405898889.032245
+r1
+xGenerateDSYMFile
+x/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app.dSYM
+x/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Generate /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app.dSYM121"GenerateDSYMFile build/Debug-iphonesimulator/scanitonapp.app.dSYM build/Debug-iphonesimulator/scanitonapp.app/scanitonappb118a5888631b841^1c4308898631b841^---0#0#1#-19%DVTDocumentLocation2@95"file://localhost/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app.dSYM0038f450dfffdf42^625"GenerateDSYMFile build/Debug-iphonesimulator/scanitonapp.app.dSYM build/Debug-iphonesimulator/scanitonapp.app/scanitonapp    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp -o /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app.dSYM36"D709FD33-2E95-4A6D-A0A0-D0AAF25E4E95-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CLd /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp normal i386
+s405898879.860683
+e405898880.417741
+r1
+xLd
+x/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp
+xnormal
+xi386
+d/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/scanitonapp.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/main.o
+d/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/AppDelegate.o
+d/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/LoginViewController.o
+d/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/SignUpViewController.o
+d/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/ScanViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libiconv.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AdSupport.framework/AdSupport
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Social.framework/Social
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libz.1.1.3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Accounts.framework/Accounts
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Parse
+d/Users/itp/Desktop/ScanItOnApp/ZBarSDK/libzbar.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Link /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp70"Ld build/Debug-iphonesimulator/scanitonapp.app/scanitonapp normal i3863370dc7f8631b841^0ff26a808631b841^---0#0#1#--1781"Ld build/Debug-iphonesimulator/scanitonapp.app/scanitonapp normal i386    cd /Users/itp/Desktop/ScanItOnApp    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator -L/Users/itp/Desktop/ScanItOnApp/ZBarSDK -F/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator -F/Users/itp/Desktop/ScanItOnApp -filelist /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/scanitonapp.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework AVFoundation -framework CoreGraphics -framework CoreMedia -framework CoreAudio -framework CoreVideo -framework QuartzCore -liconv -framework AudioToolbox -framework AdSupport -framework MobileCoreServices -framework Security -framework Social -framework StoreKit -framework SystemConfiguration -lz.1.1.3 -lsqlite3 -framework Accounts -framework CFNetwork -framework CoreLocation -framework UIKit -framework Foundation -framework Parse -lzbar -Xlinker -dependency_info -Xlinker /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/Objects-normal/i386/scanitonapp_dependency_info.dat -o /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/scanitonapp36"0F886BBE-AF7C-42C5-A3CE-6D22DB2667E0-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CProcessInfoPlistFile /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Info.plist /Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Info.plist
+s405898888.624137
+e405898888.636437
+r1
+xProcessInfoPlistFile
+x/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Info.plist
+x/Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Process /Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Info.plist110"ProcessInfoPlistFile build/Debug-iphonesimulator/scanitonapp.app/Info.plist scanitonapp/scanitonapp-Info.plist94de9f888631b841^74eea2888631b841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Info.plist0000000000000000^837"ProcessInfoPlistFile build/Debug-iphonesimulator/scanitonapp.app/Info.plist scanitonapp/scanitonapp-Info.plist    cd /Users/itp/Desktop/ScanItOnApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Info.plist -genpkginfo /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/assetcatalog_generated_info.plist -o /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app/Info.plist36"486188E8-4A90-41FB-82E1-72C8742FFE7E-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CProcessPCH /Users/itp/Library/Developer/Xcode/DerivedData/scanitonapp-etunkaksahkhoihcptxgxsnnnbuk/Index/PrecompiledHeaders/scanitonapp-Prefix-cgkpreizhgoxgcgjpoafykqbcbpi_ast/scanitonapp-Prefix.pch.pch scanitonapp/scanitonapp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch.pch scanitonapp/scanitonapp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405898877.702608
+e405898879.574408
+r1
+xProcessPCH
+x/var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch.pch
+xscanitonapp/scanitonapp-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Prefix.pch
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/Parse.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFACL.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFUser.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFConstants.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFObject.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_Facebook.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBLoginDialog.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBDialog.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBRequest.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBRequestConnection.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBGraphObject.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBSessionManualTokenCachingStrategy.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBSessionTokenCachingStrategy.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBFrictionlessRequestSettings.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FacebookSDK.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBSession.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBError.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBSettings.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBLoginView.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBGraphUser.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBGraphPlace.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBGraphLocation.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBProfilePictureView.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBUserSettingsViewController.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBViewController.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBPlacePickerViewController.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBCacheDescriptor.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBFriendPickerViewController.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBOpenGraphAction.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_FBNativeDialogs.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFCloud.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFFile.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFGeoPoint.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFQuery.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFRelation.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFRole.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFFacebookUtils.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFImageView.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFInstallation.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFLogInViewController.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFLogInView.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFSignUpView.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFProduct.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFTableViewCell.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFPurchase.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFPush.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/itp/Desktop/ScanItOnApp/Parse.framework/Headers/PF_Twitter.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile scanitonapp/scanitonapp-Prefix.pch306"ProcessPCH /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch.pch scanitonapp/scanitonapp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera800b47d8631b841^460c937f8631b841^---0#0#1#-19%DVTDocumentLocation2@81"file://localhost/Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Prefix.pch0000000000000000^3503"ProcessPCH /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch.pch scanitonapp/scanitonapp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/itp/Desktop/ScanItOnApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-generated-files.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-own-target-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-all-target-headers.hmap -iquote /Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/scanitonapp-project-headers.hmap -I/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources/i386 -I/Users/itp/Desktop/ScanItOnApp/build/scanitonapp.build/Debug-iphonesimulator/scanitonapp.build/DerivedSources -F/Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator -F/Users/itp/Desktop/ScanItOnApp --serialize-diagnostics /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch.d -c /Users/itp/Desktop/ScanItOnApp/scanitonapp/scanitonapp-Prefix.pch -o /var/folders/pl/nm0vclsj6ydb8nrf87sgkmfm0000gp/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/scanitonapp-Prefix-dzcrvufhlarckagyzxboddjaikra/scanitonapp-Prefix.pch.pch36"4E30AAEC-2F6F-4977-BFDE-DC24B28A15AC-
+b4F6DCE4D-D92B-481B-865F-69892D1521EB
+
+CTouch /Users/itp/Desktop/ScanItOnApp/build/Debug-iphonesimulator/scanitonapp.app
+r0
+
