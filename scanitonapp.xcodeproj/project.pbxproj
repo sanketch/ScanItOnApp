@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5688FC911831808D0082EEF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5688FC901831808D0082EEF7 /* Images.xcassets */; };
+		5688FC911831808D0082EEF7 /*    .xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5688FC901831808D0082EEF7 /*    .xcassets */; };
 		B8811D9315B049AE00F6F58A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8811D9215B049AE00F6F58A /* UIKit.framework */; };
 		B8811D9515B049AE00F6F58A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8811D9415B049AE00F6F58A /* Foundation.framework */; };
 		B8811D9715B049AE00F6F58A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8811D9615B049AE00F6F58A /* CoreGraphics.framework */; };
@@ -47,7 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5688FC901831808D0082EEF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5688FC901831808D0082EEF7 /*    .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "   .xcassets"; sourceTree = "<group>"; };
 		B8811D8E15B049AE00F6F58A /* scanitonapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scanitonapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8811D9215B049AE00F6F58A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8811D9415B049AE00F6F58A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -201,7 +201,7 @@
 				FDC82B1018137FCF007A72C2 /* Logo2.png */,
 				B8811E0015B06F4200F6F58A /* ViewControllers */,
 				B8811DA415B049AE00F6F58A /* MainStoryboard.storyboard */,
-				5688FC901831808D0082EEF7 /* Images.xcassets */,
+				5688FC901831808D0082EEF7 /*    .xcassets */,
 				B8811D9915B049AE00F6F58A /* Supporting Files */,
 			);
 			path = scanitonapp;
@@ -368,7 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5688FC911831808D0082EEF7 /* Images.xcassets in Resources */,
+				5688FC911831808D0082EEF7 /*    .xcassets in Resources */,
 				B8811D9D15B049AE00F6F58A /* InfoPlist.strings in Resources */,
 				B8811DA615B049AE00F6F58A /* MainStoryboard.storyboard in Resources */,
 				D27E92BA16692D0A00F838F6 /* Default-568h@2x.png in Resources */,

@@ -61,14 +61,15 @@
         // just grab the first barcode
         break;
     
-    // showing the result on textview
-    resultTextView.text = symbol.data;
     resultImageView.image = [info objectForKey: UIImagePickerControllerOriginalImage];
-    NSString* qrURL = resultTextView.text;
-    if ([qrURL rangeOfString:@"www.scaniton.com/?id="].location != NSNotFound)
+    NSString* qrURL = symbol.data;
+    NSLog(@"%@",qrURL);
+    //check if valid 
+    if ([qrURL rangeOfString:@"www.scaniton.com/scan.html?id="].location != NSNotFound)
     {
         NSArray *splitArray = [qrURL componentsSeparatedByString:@"?id="];
         NSString *qrId = splitArray[1];
+        NSLog(@"Doing it right");
         PFObject *qrLogger = [PFObject objectWithClassName:@"qr_logger"];
         qrLogger[@"qrid"] = qrId;
         qrLogger[@"createdBy"] = [PFUser currentUser];
