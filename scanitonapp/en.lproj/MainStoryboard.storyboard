@@ -168,6 +168,12 @@
                                     <action selector="startScanning:" destination="4je-N5-V7v" eventType="touchUpInside" id="AQz-jp-jym"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" id="ibT-og-67y">
+                                <rect key="frame" x="55" y="357" width="211" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.34000345466208748" green="0.68436408234648693" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -179,6 +185,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="notificationTextView" destination="ibT-og-67y" id="L1C-nv-tYV"/>
                         <outlet property="resultImageView" destination="TUm-Bk-mom" id="C4O-XU-Mgf"/>
                     </connections>
                 </viewController>

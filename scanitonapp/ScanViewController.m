@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 
 @interface ScanViewController()
+@property (weak, nonatomic) IBOutlet UITextView *notificationTextView;
 
 @end
 
@@ -22,6 +23,7 @@
     //[self setLogoutPressed:nil];
     [self setResultImageView:nil];
     [self setResultTextView:nil];
+    [self setNotificationTextView:nil];
     [super viewDidUnload];
 }
 
@@ -64,7 +66,7 @@
     resultImageView.image = [info objectForKey: UIImagePickerControllerOriginalImage];
     NSString* qrURL = symbol.data;
     NSLog(@"%@",qrURL);
-    //check if valid 
+    //check if valid
     if ([qrURL rangeOfString:@"www.scaniton.com/scan.html?id="].location != NSNotFound)
     {
         NSArray *splitArray = [qrURL componentsSeparatedByString:@"?id="];
@@ -78,10 +80,12 @@
                 UIAlertView *notification = [[UIAlertView alloc] initWithTitle:@"Success!" message:@"Sender has been notified!" delegate:nil cancelButtonTitle:@"Awesome!" otherButtonTitles:nil];
                 [notification show];
             }}];
+        self.notificationTextView.text=@"Success!";
     }
     else{
         UIAlertView *notification = [[UIAlertView alloc] initWithTitle:@"Invalid QR Code" message:@"Not a valid ScanItOn QR Code :(" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [notification show];
+        self.notificationTextView.text=@"Please Scan a valid QR Code";
     }
 
 
