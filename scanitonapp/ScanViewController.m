@@ -40,8 +40,8 @@
     
 }
 - (IBAction)startScanning:(id)sender {
-    NSLog(@"Scanning..");
-    resultTextView.text = @"Scanning..";
+    
+    
     
     ZBarReaderViewController *codeReader = [ZBarReaderViewController new];
     codeReader.readerDelegate=self;
@@ -71,7 +71,7 @@
     {
         NSArray *splitArray = [qrURL componentsSeparatedByString:@"?id="];
         NSString *qrId = splitArray[1];
-        NSLog(@"Doing it right");
+        
         PFObject *qrLogger = [PFObject objectWithClassName:@"qr_logger"];
         qrLogger[@"qrid"] = qrId;
         qrLogger[@"createdBy"] = [PFUser currentUser];
