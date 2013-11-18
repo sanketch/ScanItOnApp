@@ -28,14 +28,6 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    
-
-        
-    
-        
-    //to get the username
-    //NSString* myName = [[PFUser currentUser] objectForKey:@"full_name"]; NSLog(@"%@", myName);
 }
 
 - (IBAction)logoutPressed:(id)sender {
