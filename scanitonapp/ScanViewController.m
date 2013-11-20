@@ -65,7 +65,7 @@
     
     resultImageView.image = [info objectForKey: UIImagePickerControllerOriginalImage];
     NSString* qrURL = symbol.data;
-    NSLog(@"%@",qrURL);
+    //NSLog(@"%@",qrURL);
     //check if valid
     if ([qrURL rangeOfString:@"www.scaniton.com/scan.html?id="].location != NSNotFound)
     {
@@ -87,10 +87,10 @@
         [notification show];
         self.notificationTextView.text=@"Please Scan a valid QR Code";
     }
-
-
     
+    if (![self.presentedViewController isBeingDismissed]){
     // dismiss the controller
     [reader dismissViewControllerAnimated:YES completion:nil];
+    }
 }
 @end

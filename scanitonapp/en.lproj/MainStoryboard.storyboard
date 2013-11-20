@@ -168,8 +168,8 @@
                                     <action selector="startScanning:" destination="4je-N5-V7v" eventType="touchUpInside" id="AQz-jp-jym"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" id="ibT-og-67y">
-                                <rect key="frame" x="55" y="357" width="211" height="33"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Please scan a QR Code" textAlignment="center" id="ibT-og-67y">
+                                <rect key="frame" x="14" y="357" width="286" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
